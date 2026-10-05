@@ -8,7 +8,7 @@ console.log(`Node.js ${process.version}`)
 app.use(express.json())
 
 app.get('/', (req, res) => {
-    res.json({ msg: "Rahti webhook change still public" })
+    res.json({ msg: "Rahti webhook kanske saved=?" })
 })
 
 
